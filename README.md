@@ -27,12 +27,21 @@ A mobile application designed to reduce food waste by connecting food donors (li
 
 ---
 
+## 🧪 How It Works
+
+1. Donor logs in and uploads food details (type, quantity, location).
+2. NGO/volunteer receives alert and can view listings.
+3. Direct contact enables quick pickup and distribution.
+4. System ensures food doesn’t go to waste and reaches the needy.
+
 ## 🧱 Project Structure
 
-FoodWasteManagement/
+FoodWasteManagementApp/
 │
-├── app/ # Android App Source Code
-├── backend/ # PHP API Files
-├── database/ # SQL scripts & DB schema
-├── assets/ # Screenshots or UI images
-├── README.md # Project Info
+├── android-app/       → Android source code (Java/XML)
+├── backend-api/       → PHP scripts (APIs for food upload, login, NGOs)
+├── database/          → SQL schema and DB scripts
+├── assets/            → Screenshots, UI designs
+├── README.md          → Project overview
+├── LICENSE            → MIT License
+└── .gitignore         → Files ignored by Git
