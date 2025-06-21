@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us"
+    android:background="@drawable/aboutus_bg">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_toLeftOf="@id/tv"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/aboutus_img"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Food4Good"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21dp"
+        android:justificationMode="inter_word"
+        android:id="@+id/info"
+        android:layout_below="@id/tv"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:text="We have developed a food waste management system that donates excess food to NGOs and other organizations that help those in need. Our system is designed to be efficient, safe, and sustainable. Through our partnerships with NGOs, we are able to distribute food to vulnerable populations such as homeless people, low-income families, and senior citizens who might not have access to it otherwise."
+        />
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team"
+        android:layout_below="@+id/info"
+        android:text="Our Team"
+        android:textSize="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tm1"
+        android:layout_below="@+id/team"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="1. Mrunmayee Dalvi"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tm2"
+        android:layout_below="@+id/tm1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="2. Sujal Shinde"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tm3"
+        android:layout_below="@+id/tm2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="3. Sujit Lendave"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tm4"
+        android:layout_below="@+id/tm3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="4. Ron Gibson"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

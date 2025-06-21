@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">F4G</string>
+
+    //Headings
+    <string name="heading_one">Donate Food On the Go</string>
+    <string name="heading_two">Directly Connect To An NGO</string>
+    <string name="heading_three">View Donor Details and confirm the Donor</string>
+    <string name="heading_fourth">Feel Free to Connect Us</string>
+
+    //Description
+    <string name="desc_one">Donor need not login and can directly fill out the form</string>
+    <string name="desc_two">In case the donor wants to directly contact an NGO, he/she can clcik on the above button which will redirect him to the list of NGOs from which he can directly contact the nearest one.</string>
+    <string name="desc_three">The NGO can log into the app and view the donor uploads and confirm the donor according o the requirement it has to fulfill.</string>
+    <string name="desc_fourth">The users can also connect us without any hesitation and send their queries/problems to us or directly call on our help desk number given.</string>
+
+    <string-array name="food_type">
+        <item>&#9758; Food type</item>
+        <item> Veg</item>
+        <item> Non-Veg</item>
+    </string-array>
+
+    <string-array name="food_quantity">
+        <item>  &#9923; Food Quantity</item>
+        <item> Below 1 kg</item>
+        <item> 1 to 5 kg</item>
+        <item> 5 to 10 kg</item>
+        <item> 10 to 15 kg</item>
+        <item> 15 to 20 kg</item>
+        <item> 20 to 25 kg</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>&#9906; City</item>
+        <item>Ahmednagar</item>
+        <item>Akola</item>
+        <item>Amravati</item>
+        <item>Aurangabad</item>
+        <item>Beed</item>
+        <item>Bhandara</item>
+        <item>Buldhana</item>
+        <item>Chandrapur</item>
+        <item>Dhule</item>
+        <item>Gadchiroli</item>
+        <item>Gondia</item>
+        <item>Hingoli</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Kolhapur</item>
+        <item>Kurla</item>
+        <item>Latur</item>
+        <item>Mumbai</item>
+        <item>Nagpur</item>
+        <item>Nanded</item>
+        <item>Nandurbar</item>
+        <item>Nashik</item>
+        <item>Osmanabad</item>
+        <item>Palghar</item>
+        <item>Parbhani</item>
+        <item>Pune</item>
+        <item>Raigad</item>
+        <item>Ratnagiri</item>
+        <item>Sangli</item>
+        <item>Satara</item>
+        <item>Sindhudurg</item>
+        <item>Solapur</item>
+        <item>Thane</item>
+        <item>Wardha</item>
+        <item>Washim</item>
+        <item>Yavatmal</item>
+    </string-array>
+
+</resources>
